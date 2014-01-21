@@ -1,5 +1,8 @@
 #!/bin/bash -
 
+# Installs ruby gems listed. 
+# This should be run after the desired ruby version is installed.
+
 # Update to include your desired Gems.
 gem update --system
 gem install bundler
