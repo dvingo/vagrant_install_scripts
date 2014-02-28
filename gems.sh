@@ -6,3 +6,7 @@ gem install bundler
 gem install sass
 gem install compass
 gem install zen-grids
+
+# Alternatively:
+# cd /vagrant
+# bundle install
