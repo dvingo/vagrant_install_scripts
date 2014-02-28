@@ -15,4 +15,4 @@ echo 'eval "$(rbenv init -)"' >> "$home_dir/.bashrc"
 git clone https://github.com/sstephenson/ruby-build.git "$home_dir/.rbenv/plugins/ruby-build"
 $home_dir/.rbenv/bin/rbenv install "$ruby_version"
 $home_dir/.rbenv/bin/rbenv global "$ruby_version"
-rbenv rehash
+$home_dir/.rbenv/bin/rbenv rehash

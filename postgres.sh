@@ -20,8 +20,14 @@ EOF
 )
 sudo -u postgres psql -c "$create_db_string"
 
+config_file=/etc/postgresql/9.1/main/pg_hba.conf
+
 # Allow local login with no password.
 sudo sed -i 's/^local\s\+all\s\+all\s\+peer/local    all         all        trust/' $config_file
 
+# Allow connections over TCP/IP sockets
+sed -i 's/^host\s\+all\s\+all\s\+127.0.0.1\/32\s\+md5/host    all             all             127.0.0.1\/32            trust/' $config_file
+sed -i 's/^host\s\+all\s\+all\s\+::1\/128\s\+md5/host    all             all             ::1\/128                 trust/' $config_file
+
 # Restart the server.
-sudo /etc/init.d/postgresql restart
+/etc/init.d/postgresql restart
