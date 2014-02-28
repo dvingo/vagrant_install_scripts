@@ -2,7 +2,7 @@
 
 This is a collection of Bourne-Again SHell scripts to install various softare on Ubuntu Linux.
 
-These are designed to be used in combination with Vagrant.
+These are designed to be used in combination with [Vagrant](http://www.vagrantup.com/).
 
 An example config line in a Vagrantfile would be:
 
@@ -19,7 +19,7 @@ It would be used like so:
 config.vm.provision :shell, :privileged => false, :path => "#{VAGRANT_FILES}/ruby.sh"
 ```
 
-These were taken from a project so should be changed to suit your needs.
+These were taken from an existing project so should be changed to suit your needs.
 
 Check the individual files for additional information pertaining to each piece
 of software.

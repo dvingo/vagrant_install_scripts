@@ -2,7 +2,7 @@
 
 # Installs Neo4j from the Neo Techonlogy's repository.
 
-# It is recommended to run the Java 7 install before install Neo4j.
+# It is recommended to run the Java 7 install before installing Neo4j.
 
 wget -O - http://debian.neo4j.org/neotechnology.gpg.key| apt-key add -
 echo 'deb http://debian.neo4j.org/repo stable/' > /etc/apt/sources.list.d/neo4j.list
