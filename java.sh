@@ -6,6 +6,16 @@
 # and then rename it to jdk-7-linux-x64.tar.gz
 # this way this script will work for any Java update releases.
 
+# If you need to download the jdk to a machine without a browser you can do so
+# using:
+# wget --no-cookies\
+#  --no-check-certificate\
+#  --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2Fjava%2Fjavase%2Fdownloads%2Fjdk7-downloads-1880260.html"\
+#  http://download.oracle.com/otn-pub/java/jdk/7u51-b13/jdk-7u51-linux-x64.tar.gz
+# Where the cookie is the gpw_e24 value from a computer with a browser.
+# Taken from info here:
+# https://unixserveradmin.wordpress.com/2013/06/26/how-to-download-oracle-latest-java-jrejdk-in-linux-by-bypassing-license-using-wget/
+
 # Steps to install gathered from:
 # https://help.ubuntu.com/community/Java
 # http://askubuntu.com/questions/56104/how-can-i-install-sun-oracles-proprietary-java-6-7-jre-or-jdk
