@@ -2,7 +2,8 @@
 
 This is a collection of Bourne-Again SHell scripts to install various softare on Ubuntu Linux.
 
-These are designed to be used in combination with [Vagrant](http://www.vagrantup.com/).
+These are designed to be used in combination with [Vagrant](http://www.vagrantup.com/), but work
+equally well on any Ubuntu system.
 
 An example config line in a Vagrantfile would be:
 
