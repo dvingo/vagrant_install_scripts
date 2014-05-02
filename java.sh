@@ -20,6 +20,7 @@
 # https://help.ubuntu.com/community/Java
 # http://askubuntu.com/questions/56104/how-can-i-install-sun-oracles-proprietary-java-6-7-jre-or-jdk
 # http://askubuntu.com/questions/56104/how-can-i-install-sun-oracles-proprietary-java-6-7-jre-or-jdk/68227#68227
+# https://www.digitalocean.com/community/articles/how-to-manually-install-oracle-java-on-a-debian-or-ubuntu-vps
 
 tarball=/vagrant/jdk-7-linux-x64.tar.gz
 extract_name=jdk1.7.0_
